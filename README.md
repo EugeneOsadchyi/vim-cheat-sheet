@@ -66,7 +66,7 @@ $ vimtutor
 | `c`          | Change                                                                       |
 | `y`          | Yank (copy)                                                                  |
 | `v`          | Visually select                                                              |
-|  >, <        | indent, dedent                                                               |
+| `>, <`        | indent, dedent                                                               |
 | `=`          | reformat (reindent, break long lines, etc)                                   |
 
 
