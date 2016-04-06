@@ -133,10 +133,25 @@ $ vimtutor
 ## Tabs
 ------
 
-| Command/Mapping      | Operation                                                                   |
-|----------------------|-----------------------------------------------------------------------------|
-| `:tabnew`            | Open a new tab                                                              |
-| `:tabedit <filename>`| Edit the file with the provided name in a new tab                           |
-| `gt`                 | Go to next tab (wraps around to beginning)                                  |
-| `gT`                 | Go to previous tab (wraps around to end)                                    |
-| `<C-w>T`             | Break the current window out to a new tab                                   |
+| Command/Mapping      | Operation                                                                  |
+|----------------------|----------------------------------------------------------------------------|
+| `:tabnew`            | Open a new tab                                                             |
+| `:tabedit <filename>`| Edit the file with the provided name in a new tab                          |
+| `gt`                 | Go to next tab (wraps around to beginning)                                 |
+| `gT`                 | Go to previous tab (wraps around to end)                                   |
+| `<C-w>T`             | Break the current window out to a new tab                                  |
+
+
+## Visual-Block mode
+------
+
+Visual block mode can be started with `<C-v>` from normal mode. Once started,
+use normal mode motions to move the highlight region.
+
+| Mapping              | Operation                                                                  |
+|----------------------|----------------------------------------------------------------------------|
+| `d, or x`            | Delete the visual block selection                                          |
+| `c`                  | Change                                                                     |
+| `r`                  | Replace all characters in the block with the next character you type       |
+| `I`                  | Insert text before the block                                               |
+| `A`                  | Insert text after the block                                                |
